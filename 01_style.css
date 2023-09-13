@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.canvas {
+  width: 70%;
+  
+}
+.canvas h1 {
+  text-align: center;
+  margin: 100px 0 20px 0;
+  font-size: 25px;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(171, 36, 205);
+  background-color: rgb(226, 226, 226);
+}
+
+
+.canvas>span {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.canvas>span:nth-child(2) {
+  background-color: gray;
+}
+.canvas>span:nth-child(3) {
+  background-color: white;
+}
+.canvas>span:nth-child(4) {
+  background-color: blue;
+}
+.canvas>span:nth-child(5) {
+  background-color: yellow;
+}
+.canvas>span:nth-child(6) {
+  background-color: tomato;
+}
+.canvas>span:nth-child(7) {
+  background-color: purple;
+}
+
+
+.canvas h2 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(215, 215, 215);
+}
+
